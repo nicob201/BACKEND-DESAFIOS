@@ -8,9 +8,13 @@ El presente repositorio va a contener las carpetas con los desafios a entregar p
   DESAFIOS/
 │
 ├── 2-ECMAScript-ECMAScript-avanzado/
-│   ├── app.js
+│     ├── src/
+│     │   ├── app.js
+│     ├── package.json
 ├── 4-Manejo-De-Archivos/
-│   ├── app.js
-│   ├── productos.json
+│     ├── src/
+│     │   ├── app.js
+│     │   ├── productos.json
+│     ├── package.json
 └── README.md
 ```
