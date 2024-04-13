@@ -16,5 +16,11 @@ El presente repositorio va a contener las carpetas con los desafios a entregar p
 │     │   ├── app.js
 │     │   ├── productos.json
 │     ├── package.json
+├── 6-Servidor-con-Express/
+│     ├── src/
+│     │   ├── app.js
+│     │   ├── product-manager.js
+│     │   ├── products.json
+│     ├── package.json
 └── README.md
 ```
