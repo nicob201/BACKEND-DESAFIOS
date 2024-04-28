@@ -8,19 +8,34 @@ El presente repositorio va a contener las carpetas con los desafios a entregar p
   DESAFIOS/
 │
 ├── 2-ECMAScript-ECMAScript-avanzado/
-│     ├── src/
-│     │   ├── app.js
-│     ├── package.json
+      └───src
+              app.js
 ├── 4-Manejo-De-Archivos/
-│     ├── src/
-│     │   ├── app.js
-│     │   ├── productos.json
-│     ├── package.json
+      └───src
+              app.js
+              productos.json
 ├── 6-Servidor-con-Express/
-│     ├── src/
-│     │   ├── app.js
-│     │   ├── product-manager.js
-│     │   ├── products.json
-│     ├── package.json
+      └───src
+              app.js
+              product-manager.js
+              products.json
+├── 10-websockets-handlebars/
+      └───src
+          │   app.js
+          │   utils.js
+          │
+          ├───public
+          │   └───js
+          │           index.js
+          │
+          ├───routes
+          │       views.router.js
+          │
+          └───views
+              │   home.handlebars
+              │   realTimeProducts.handlebars
+              │
+              └───layouts
+                      main.handlebars
 └── README.md
 ```
