@@ -37,5 +37,50 @@ El presente repositorio va a contener las carpetas con los desafios a entregar p
               │
               └───layouts
                       main.handlebars
+├── 19-Implementando-login/
+      └───src
+      │   app.js
+      │   utils.js
+      │
+      ├───config
+      │       database.js
+      │
+      ├───controllers
+      │       cartController.js
+      │       productController.js
+      │
+      ├───dao
+      │   └───models
+      │           cart.model.js
+      │           product.model.js
+      │           user.js
+      │
+      ├───middleware
+      │       auth.js
+      │
+      ├───public
+      │   └───js
+      │           carts.js
+      │           products.js
+      │
+      ├───routes
+      │   │   cart.router.js
+      │   │   product.router.js
+      │   │   views.router.js
+      │   │
+      │   └───api
+      │           sessions.js
+      │
+      └───views
+            │   carts.handlebars
+            │   editProduct.handlebars
+            │   login.handlebars
+            │   newProduct.handlebars
+            │   products.handlebars
+            │   profile.handlebars
+            │   register.handlebars
+            │
+            └───layouts
+                  main.handlebars
 └── README.md
 ```
