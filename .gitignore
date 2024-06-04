@@ -4,3 +4,5 @@ gitignore
 /10-websocket-handlebars/node_modules
 /19-Implementando-login/node_modules
 /19-Implementando-login/.env
+/21-autenticacion-JWT/node_modules
+/21-autenticacion-JWT/.env
