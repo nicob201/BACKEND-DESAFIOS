@@ -96,9 +96,7 @@ if (productForm) {
     try {
       let response = await fetch("/api/products", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: {"Content-Type": "application/json",},
         body: JSON.stringify(productData),
       });
       let result = await response.json();
@@ -155,9 +153,7 @@ if (editForm) {
     try {
       const response = await fetch(`/api/products/${productId}`, {
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: {"Content-Type": "application/json",},
         body: JSON.stringify(productData),
       });
       if (response.ok) {
