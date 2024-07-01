@@ -6,3 +6,5 @@ gitignore
 /19-Implementando-login/.env
 /21-autenticacion-JWT/node_modules
 /21-autenticacion-JWT/.env
+/27-arquitectura-del-servidor/node_modules
+/27-arquitectura-del-servidor/.env

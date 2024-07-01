@@ -129,5 +129,62 @@ El presente repositorio va a contener las carpetas con los desafios a entregar p
             │
             └───layouts
                   main.handlebars
+├── 27-arquitectura-del-servidor/
+      └───src
+      │   app.js
+      │   utils.js
+      │   
+      ├───config
+      │       database.js
+      │       passport.config.js
+      │       
+      ├───controllers
+      │       cartController.js
+      │       productController.js
+      │       userController.js
+      │       
+      ├───dao
+      │   └───models
+      │           cart.model.js
+      │           product.model.js
+      │           user.js
+      │
+      ├───middleware
+      │       auth.js
+      │       
+      ├───public
+      │   ├───css
+      │   │       styles.css
+      │   │
+      │   └───js
+      │           carts.js
+      │           products.js
+      │
+      ├───routes
+      │   │   cart.router.js
+      │   │   product.router.js
+      │   │   user.router.js
+      │   │   views.router.js
+      │   │
+      │   └───api
+      │           sessions.js
+      │
+      ├───services
+      │       cartService.js
+      │       productService.js
+      │       userService.js
+      │
+      └───views
+      │   carts.handlebars
+      │   editProduct.handlebars
+      │   login.handlebars
+      │   newProduct.handlebars
+      │   products.handlebars
+      │   profile.handlebars
+      │   register.handlebars
+      │   restorePass.handlebars
+      │
+      └───layouts
+                  main.handlebars
 └── README.md
 ```
