@@ -8,3 +8,6 @@ gitignore
 /21-autenticacion-JWT/.env
 /27-arquitectura-del-servidor/node_modules
 /27-arquitectura-del-servidor/.env
+/32-optimizacion/node_modules
+/32-optimizacion/.env.development
+/32-optimizacion/.env.production
