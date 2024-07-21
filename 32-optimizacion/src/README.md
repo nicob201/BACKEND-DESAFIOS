@@ -82,3 +82,10 @@ el error que se obtiene es:
   "error": "Una o más propiedades están incompletas o no son válidas.\nLista de propiedades requeridas:\n* productId debe ser un string, recibido: 12345\n* units debe ser un number, recibido: ten\n"
 }
 ```
+
+# MOCKING
+
+### - Hacer un GET a la ruta:
+```bash
+http://localhost:8080/api/mockingproducts
+```
