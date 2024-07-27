@@ -11,3 +11,6 @@ gitignore
 /32-optimizacion/node_modules
 /32-optimizacion/.env.development
 /32-optimizacion/.env.production
+/34-logger/node_modules
+/34-logger/.env.development
+/34-logger/.env.production

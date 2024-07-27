@@ -267,5 +267,89 @@ El presente repositorio va a contener las carpetas con los desafios a entregar p
             │
             └───layouts
                   main.handlebars
+├── 34-logger/
+      └───src
+            │   app.js
+            │   
+            ├───config
+            │       config.js
+            │       database.js
+            │       passport.config.js
+            │       socketConfig.js
+            │       
+            ├───controllers
+            │       cartController.js
+            │       mockingController.js
+            │       productController.js
+            │       ticketController.js
+            │       userController.js
+            │       
+            ├───dao
+            │   ├───DTOs
+            │   │       usersDTO.js
+            │   │       
+            │   └───models
+            │           cart.model.js
+            │           message.model.js
+            │           product.model.js
+            │           ticket.model.js
+            │           user.js
+            │
+            ├───middleware
+            │   │   auth.js
+            │   │
+            │   └───errors
+            │           index.js
+            │
+            ├───public
+            │   ├───css
+            │   │       styles.css
+            │   │
+            │   └───js
+            │           carts.js
+            │           chat.js
+            │           products.js
+            │           tickets.js
+            │
+            ├───routes
+            │   │   cart.router.js
+            │   │   messages.router.js
+            │   │   mocking.router.js
+            │   │   product.router.js
+            │   │   ticket.router.js
+            │   │   user.router.js
+            │   │   views.router.js
+            │   │
+            │   └───api
+            │           sessions.js
+            │
+            ├───services
+            │       cartService.js
+            │       customError.js
+            │       emailService.js
+            │       enums.js
+            │       info.js
+            │       messageService.js
+            │       productService.js
+            │       ticketService.js
+            │       userService.js
+            │
+            ├───utils
+            │       logger.js
+            │       utils.js
+            │
+            └───views
+            │   carts.handlebars
+            │   chat.handlebars
+            │   editProduct.handlebars
+            │   login.handlebars
+            │   newProduct.handlebars
+            │   products.handlebars
+            │   profile.handlebars
+            │   register.handlebars
+            │   restorePass.handlebars
+            │
+            └───layouts
+                        main.handlebars
 └── README.md
 ```
