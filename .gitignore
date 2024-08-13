@@ -14,3 +14,6 @@ gitignore
 /34-logger/node_modules
 /34-logger/.env.development
 /34-logger/.env.production
+/39-swagger/node_modules
+/39-swagger/.env.development
+/39-swagger/.env.production
