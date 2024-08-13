@@ -1,5 +1,5 @@
-import ticketModel from "../dao/models/ticket.model.js";
-import cartModel from "../dao/models/cart.model.js";
+import ticketModel from "../dao/models/ticketModel.js";
+import cartModel from "../dao/models/cartModel.js";
 import sendEmailTicket from "./emailService.js";
 import { nanoid } from "nanoid";
 import config from "../config/config.js";

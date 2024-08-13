@@ -1,4 +1,4 @@
-import productModel from "../dao/models/product.model.js";
+import productModel from "../dao/models/productModel.js";
 
 // Devuelve los productos
 async function getProductsService({ sort, limit = 10, page = 1, category }) {

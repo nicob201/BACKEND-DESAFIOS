@@ -2,7 +2,7 @@ import passport from "passport";
 import local from "passport-local";
 import GitHubStrategy from 'passport-github2'
 import GoogleStrategy from 'passport-google-oauth20'
-import userService from "../dao/models/user.js";
+import userService from "../dao/models/userModel.js";
 import { createHash, isValidPassword } from "../utils/utils.js";
 import config from "../config/config.js";
 

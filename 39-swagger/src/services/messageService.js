@@ -1,4 +1,4 @@
-import messageModel from "../dao/models/message.model.js";
+import messageModel from "../dao/models/messageModel.js";
 import { io } from "../app.js";
 
 // Devuelve todos los mensajes que hay en la base de datos al cargar la pagina del chat

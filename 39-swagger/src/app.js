@@ -10,22 +10,22 @@ import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUiExpress from 'swagger-ui-express';
 
 // Routers
-import viewsRouter from "./routes/views.router.js";
-import cartRouter from "./routes/cart.router.js";
-import ticketRouter from "./routes/ticket.router.js";
-import productRouter from "./routes/product.router.js";
-import userRouter from "./routes/user.router.js";
+import viewsRouter from "./routes/viewsRouter.js";
+import cartRouter from "./routes/cartRouter.js";
+import ticketRouter from "./routes/ticketRouter.js";
+import productRouter from "./routes/productRouter.js";
+import userRouter from "./routes/userRouter.js";
 import sessionsRouter from "./routes/api/sessions.js";
-import messageRouter from "./routes/messages.router.js";
-import mockingRouter from './routes/mocking.router.js';
+import messageRouter from "./routes/messagesRouter.js";
+import mockingRouter from './routes/mockingRouter.js';
 
 // Configuracion de MongoDB y conexion con la DB
-import mongoose from "./config/database.js";
+import mongoose from "./config/databaseConfig.js";
 import MongoStore from "connect-mongo";
 
 // Utilidades y configuraciones adicionales
 import __dirname from "./utils/utils.js";
-import initializePassport from "./config/passport.config.js";
+import initializePassport from "./config/passportConfig.js";
 import config from "./config/config.js";
 import configureSocket from "./config/socketConfig.js";
 import errorHandler from "./middleware/errors/index.js";

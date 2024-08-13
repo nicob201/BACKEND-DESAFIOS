@@ -1,5 +1,5 @@
-import cartModel from "../dao/models/cart.model.js";
-import userModel from "../dao/models/user.js";
+import cartModel from "../dao/models/cartModel.js";
+import userModel from "../dao/models/userModel.js";
 
 // Devuelve los carritos
 async function getCartsService() {

@@ -1,6 +1,6 @@
 import { response, Router } from "express";
-import usersCollection from "../../dao/models/user.js";
-import cartModel from "../../dao/models/cart.model.js";
+import usersCollection from "../../dao/models/userModel.js";
+import cartModel from "../../dao/models/cartModel.js";
 import { createHash, generateResetToken } from "../../utils/utils.js";
 import { sendResetEmail } from "../../services/emailService.js";
 import passport from "passport";

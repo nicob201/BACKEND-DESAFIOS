@@ -1,4 +1,4 @@
-import userModel from '../dao/models/user.js';
+import userModel from '../dao/models/userModel.js';
 import { UserDTO } from '../dao/DTOs/usersDTO.js';
 import CustomError from './customError.js';
 import EErrors from './enums.js';
