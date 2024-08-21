@@ -17,3 +17,6 @@ gitignore
 /39-swagger/node_modules
 /39-swagger/.env.development
 /39-swagger/.env.production
+/41-testing/node_modules
+/41-testing/.env.development
+/41-testing/.env.production
